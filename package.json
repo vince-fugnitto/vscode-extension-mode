@@ -15,14 +15,15 @@
         "Other"
     ],
     "activationEvents": [
-        "onCommand:vscode-extension-mode.helloWorld"
+        "onCommand:vscode-extension-mode.echoMode"
     ],
     "main": "./out/extension.js",
     "contributes": {
         "commands": [
             {
-                "command": "vscode-extension-mode.helloWorld",
-                "title": "Hello World"
+                "command": "vscode-extension-mode.echoMode",
+                "category": "Test",
+                "title": "Echo Extension Mode"
             }
         ]
     },
